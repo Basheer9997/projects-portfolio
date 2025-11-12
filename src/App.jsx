@@ -3,6 +3,7 @@ import { Component } from 'react'
 import TabItem from './components/TabItem'
 import ProjectItem from './components/ProjectItem'
 import Header from './components/Header'
+import image from '../src/assets/images/image.png'
 
 import './App.css'
 
@@ -123,7 +124,7 @@ const projectsList = [
   {
     projectId: 12,
     category: 'REACT',
-    imageURL: 'src/assets/images/image.png',
+    imageURL: image,
     title: 'Restaurant App',
     description:
       'A dynamic React restaurant menu app with API integration, sliding tabs, dish customization, and interactive cart management.',
